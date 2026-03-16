@@ -823,4 +823,5 @@ const openModal = (res) => {
 
 // Start the app
 renderRestaurants();
+
 // your code here
