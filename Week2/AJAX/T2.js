@@ -13,6 +13,7 @@ fetch(requestURL, {
     },
     body: JSON.stringify(data)
 })
+
     .then(response => response.json())
     .then(result => {
         console.log('Response:', result);

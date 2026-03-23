@@ -791,10 +791,8 @@ const renderRestaurants = () => {
       const allRows = document.querySelectorAll('tr');
       allRows.forEach(r => r.classList.remove('highlight'));
 
-      // Add highlight to clicked row
       row.classList.add('highlight');
 
-      // c. Show Modal Details
       openModal(restaurant);
     });
 
@@ -802,7 +800,6 @@ const renderRestaurants = () => {
   });
 };
 
-// Function to populate and show the <dialog>
 const openModal = (res) => {
   modal.innerHTML = `
     <article>
